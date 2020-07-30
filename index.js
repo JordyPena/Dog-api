@@ -17,8 +17,8 @@ function displayResults(responseJson) {
        
        $("#images").append(`<img src=${responseJson.message[i]}>`);
       
-       console.log(responseJson);
-   }
+    }
+    console.log(responseJson);
 
     $('.results').removeClass('.hidden');
 }
